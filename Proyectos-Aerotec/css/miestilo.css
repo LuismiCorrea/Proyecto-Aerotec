@@ -1,0 +1,1554 @@
+/*--------------------------------------------Pagina principal index y partes comunes de la pagina--------------------------------------------*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: RedRose-Regular, Sans-serif;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: RedRose-Regular;
+	src: url('../fonts/RedRose/RedRose-Regular.ttf');
+}
+
+@font-face{
+	font-family: Alegreya;
+	src: url(../fonts/Alegreya/AlegreyaSansSC-Black.ttf);
+}
+
+@font-face{
+	font-family: Alegreya-Italic;
+	src: url(../fonts/Alegreya/AlegreyaSansSC-Italic.ttf);
+}
+
+#nav {
+	width: 100%;
+	height: 165px;
+	/*border: 1px solid red;*/
+	}
+
+	#info{
+		/*border: 1px solid black;*/
+		height: 75px;
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.link{
+		text-decoration: none;
+		color: #585858;
+		font-size: 16px;
+	}
+
+	#tel{
+		/*border: 1px solid blue;*/
+		height: 25px;
+		width: 15%;
+		padding: 2px;
+		margin-top: 25px;
+		margin-bottom: 27px;
+		float: left;
+		color: #585858;
+	}
+
+	#telico{
+		width: 20px;
+		height: 20px;
+		/*border: 1px solid red;*/
+		float: left;
+		display: block;
+		margin-right: 3px;
+	}
+
+	#loc{
+		/*border: 1px solid red;*/
+		height: 25px;
+		width: 15%;
+		padding: 2px;		
+		margin-top: 25px;
+		margin-bottom: 27px;
+		float: left;
+		color: #585858;
+	}
+
+	#locic{
+		width: 20px;
+		height: 20px;
+	}
+
+#sitemenu{
+	width: 60%;
+	height: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid green;*/
+}
+
+	#logo{
+		width: 35%;
+		height: 85px;
+		/*border: 1px solid purple;*/
+		margin-top: 2px;
+		float: left;
+		clear: both;
+	}
+
+	#imgalogo{
+		width: 100%;
+		height: 85px;
+		/*border: 1px solid orange;*/
+	}
+
+	#menu{
+		height: 70px;
+		width: 60%;
+		float: right;
+		margin-top: 18px;
+		/*border:1px solid red;*/
+	}
+
+		#menubotons{
+			width: 90%;
+			/*border:1px solid blue;*/
+			height: 50px;
+			margin-top: 10px;
+			text-align: right;
+			padding-top: 19px;
+			color: #585858;
+		}
+
+			.botones{
+				margin: 0px 0px 0px 2%;
+				font-size: 16px;
+			}
+
+			li{
+				display: inline-block;
+				list-style: none;
+			}
+
+			a {
+			text-decoration: none;
+			color: #585858;
+			font-size: 16px;
+			}
+
+			a:hover {
+				color: #B40404;
+			}
+
+			
+#portada{
+	width: 100%;
+	height: 560px;
+	/*border: 1px solid orange;*/
+}
+
+#imgportada{
+	width: 80%;
+	margin-left: 10%;
+	height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      float: left;
+      position: relative;
+}
+
+#formulario {
+	width: 63%;
+	height: 124px;
+	/*border: 1px solid blue;*/
+	background-color: white;
+	position: absolute;
+	margin-top: 436px;
+	margin-left: 18.4%;
+	color: #585858;
+}
+
+	#formularios{
+		width: 95%;
+		margin-top: 2px;
+		margin-right: auto;
+		margin-left: auto;
+		height: 120px;
+		/*border: 1px solid green;*/
+		background-color: #FAFAFA;
+		border-radius: 10px;
+	}
+
+		/*p{
+			border: 1px solid orange;
+		}*/
+
+		#formulario1 {
+		width: 79.5%;
+		height: 58px;
+		/*border: 1px solid black;*/
+		background-color: #FAFAFA;
+		float: left;
+		margin-left: 0.5%;
+		}
+			
+			#formularioname {
+				margin: 5px 1% 0px 3%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#nombre {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#nombre:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formulariolastname {
+				margin: 5px 1% 0px 1%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#apellidos {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#apellidos:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formulariofechain {
+			margin: 5px 1% 0px 1%;
+			width: 22%;
+			font-size: 16px;
+			float: left;
+			/*border: 1px solid red;*/
+			}
+
+			#fechallegada {
+				font-family: RedRose-Regular, Sans-serif;
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 16px;
+				text-align: center;
+			}
+
+			#fechallegada:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formulariofechaout {	
+				margin: 5px 3% 0px 1%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#fechasalida {
+				font-family: RedRose-Regular, Sans-serif;				
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 16px;
+				text-align: center;
+			}
+
+			#fechasalida:hover{
+				border: 1px solid #F78181;
+			}
+
+		#formulario2 {
+		width: 79.5%;
+		height: 58px;
+		/*border: 1px solid red;*/
+		background-color: #FAFAFA;
+		margin-left: 0.5%;
+		float: left;
+		}
+
+			#formulariodni {
+				margin: 5px 1% 0px 3%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#dni {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#dni:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formularionum {
+				margin: 5px 1% 0px 1%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#numeropersonas {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#numeropersonas:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formulariolugarori {
+				margin: 5px 1% 0px 1%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#lugarorigen {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#lugarorigen:hover{
+				border: 1px solid #F78181;
+			}
+
+			#formulariolugardes {
+				margin: 5px 3% 0px 1%;
+				width: 22%;
+				font-size: 16px;
+				float: left;
+				/*border: 1px solid red;*/
+			}
+
+			#lugardestino {
+				border: 1px solid gray;
+				border-radius: 5px;
+				width: 90%;
+				font-size: 20px;
+				text-align: center;
+			}
+
+			#lugardestino:hover{
+				border: 1px solid #F78181;
+			}
+
+		#formulario3 {
+			width: 19.5%;
+			height: 116px;
+			/*border: 1px solid purple;*/
+			background-color: #FAFAFA;
+			float: right;
+			margin-right: 0.5%;
+			padding-top: 38px;
+		}
+
+			#enviar{
+				width: 70%;
+				height: 40px;
+				margin-right: 15%;
+				margin-left: 15%;
+				font-size: 16px;
+				/*border: 1px solid blue;*/
+				border: none;
+				color: white;
+				background-color: #FA5858;
+			}
+
+			#enviar:hover{
+				border:2px solid black;
+				border-radius: 5px;
+			}
+
+#cuerpo {
+	width: 63%;
+	height: 1870px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid green;*/
+}
+
+	#contenido{
+		width: 93%;
+		height: 1780px;
+		margin-top: 65px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 4px solid #F2F2F2;
+	}
+
+	#services{
+		/*border:1px solid purple;*/
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 50px;
+		padding: 15px;
+	}
+
+		#servicestit{
+			color: #B40404;
+			text-align: center;
+		}
+
+		#telfservice{
+			color: #DF0101;
+		}
+
+		#botonrenting{
+			/*border: 1px solid red;*/
+			width: 15%;
+			height: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			padding-top: 5px;
+			background-color: #FA5858;
+			color: white;
+			border-radius: 5px;
+		}
+
+		#botonrenting:hover{
+				border:2px solid black;
+				border-radius: 5px;
+				padding-top: 3px;
+			}
+
+	#noticias {
+		width: 100%;
+		height: 250px;
+		/*border: 1px solid orange;*/
+		margin-top: 40px;
+	}
+
+		#seguimientotit{
+			text-align: center;
+			color: #B40404; 
+		}
+
+		#articles{
+			/*border: 1px solid red;*/
+			width: 95%;
+			clear: both;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+			#seguimientobox{
+				width: 26.7%;
+				height: 200px;
+				float: left;
+				margin-left: 3.5%;
+				margin-right: 3.5%;
+				/*border:1px solid red;*/
+			}
+
+			.img-seg{
+				width: 100%;
+				height: 200px;
+				/*border: 1px solid red;*/
+				overflow: hidden;
+				box-shadow: 3px 5px 25px rgba (0,0,0,0.548);
+			}
+
+			.img-seg img{
+				width: 100%;
+				height: 100%;
+				transition: 1s;
+			}
+
+			#img-tit{
+				text-align: center;
+				font-size: 25px;
+				margin-top: 15px;
+				background-color: #256345;
+				color: white;
+				padding: 5px;
+			}
+
+			.img-seg img:hover{
+				transform: scale(1.2);
+			}
+
+			#uberbox{
+				width: 26.7%;
+				height: 200px;
+				float: left;
+				margin-left: 3%;
+				margin-right: 3%;
+			}
+
+			.img-uber{
+				width: 100%;
+				height: 200px;
+				/*border: 1px solid red;*/
+				overflow: hidden;
+				box-shadow: 3px 5px 25px rgba (0,0,0,0.548);
+			}
+
+			.img-uber img{
+				width: 100%;
+				height: 100%;
+				transition: 1s;
+			}
+
+			#img-tit{
+				text-align: center;
+				font-size: 25px;
+				margin-top: 15px;
+				background-color: #256345;
+				color: white;
+				padding: 5px;
+			}
+
+			.img-uber img:hover{
+				transform: scale(1.2);
+			}
+
+			#tiempobox{
+				width: 26.7%;
+				height: 200px;
+				float: left;
+				margin-left: 3%;
+				margin-right: 3%;
+			}
+
+			.img-tiempo{
+				width: 100%;
+				height: 200px;
+				/*border: 1px solid red;*/
+				overflow: hidden;
+				box-shadow: 3px 5px 25px rgba (0,0,0,0.548);
+			}
+
+			.img-tiempo img{
+				width: 100%;
+				height: 100%;
+				transition: 1s;
+			}
+
+			#img-tit{
+				text-align: center;
+				font-size: 25px;
+				margin-top: 15px;
+				background-color: #256345;
+				color: white;
+				padding: 5px;
+			}
+
+			.img-tiempo img:hover{
+				transform: scale(1.2);
+			}
+
+	#nosotros{
+		margin-top: 150px;
+		/*border: 1px solid black;*/
+		text-align: center;
+		padding: 15px;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+		#nosotrostit{
+			text-align: center;
+			color: #B40404;
+		}
+
+		#sedes{
+			/*border: 1px solid blue;*/
+			width: 100%;
+			margin-top: 50px;
+			height: 580px;
+		}
+
+			#sedestit{
+				text-align: center;
+				color: #B40404;
+			}
+
+		#container{
+			width: 98%;
+			padding: 30px;
+			height: 540px;
+			margin: auto;
+			/*border: 1px solid orange;*/
+		}
+
+		ul#slider{
+			position: relative;
+			width: 100%;
+			height: 410px;
+			/*border: 1px solid red;*/
+		}
+
+		ul#slider li{
+			position: absolute;
+			left: 0;
+			margin-top: 0;
+			opacity: 0;
+			width: inherit;
+			height: inherit;
+			transition: opacity 0.5s;
+			background: gray;
+		}
+
+		ul#slider li img{
+			width: 100%;
+			height: 410px;
+			object-fit: cover;
+		}
+
+		ul#slider li:first-child {
+			opacity: 1; /*Con este comando mostramos el primer <li>*/
+		}
+
+		ul#slider li:target {
+			opacity: 1; /*Con este comando mostramos el <li> del enlace que pulsemos*/
+		}
+
+		#menuslider {
+			text-align: center;
+			margin-top: 3px;
+			/*border: 1px solid black;*/
+		}
+
+		#menuslider li{
+			display: inline-block;
+			text-align: center;
+			/*border: 1px solid green;*/
+		}
+
+		#menuslider li a{
+			display: inline-block;
+			color: white;
+			text-decoration: none;
+			background-color: #B40404;
+			padding: 2px;
+			width: 28px;
+			height: 28px;
+			font-size: 18px;
+			border-radius: 100%;
+		}
+
+		#menuslider li a:hover{
+			border:1px solid black;
+		}
+
+#footer{
+	margin-top: 50px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	width: 100%;
+	background-color: #D8D8D8;
+}
+
+	#enlacesredes{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 80px;
+		padding-top: 40px;
+		text-align: center;
+		/*border: 1px solid black;*/
+	}
+
+	#enlacesredes img{
+		width: 18px;
+		height: 18px;
+		margin-right: 50px;
+	}
+
+	#enlacescopy{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 80px;
+		/*border: 1px solid purple;*/
+		text-align: center;
+		padding: 28px;
+	}
+
+/*--------------------------------------------Pagina renting --------------------------------------------*/
+
+#cuerporenting {
+	width: 63%;
+	height: 2670px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid green;*/
+}
+
+	#contenidorenting {
+		width: 93%;
+		height: 2560px;
+		margin-top: 65px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 4px solid #F2F2F2;
+	}
+
+#renting{
+	text-align: center;
+	margin-top: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid green;*/
+}
+
+	#rentingtit{
+			color: #B40404;
+			text-align: center;
+	}
+
+/*-------------------------------------------Hyundai i20------------------------------------------------*/
+#cocheA {
+	margin-top: 30px;
+	/*border: 1px solid purple;*/
+}
+
+#sliderrenting {
+	width: 63.5%;
+	padding: 30px;
+	height: 620px;
+	margin: auto;
+	/*border: 1px solid orange;*/
+}
+
+	ul#coche1{
+		position: relative;
+		width: 100%;
+		height: 480px;
+		/*border: 1px solid red;*/
+	}
+
+	ul#coche1 li{
+		position: absolute;
+		left: 0;
+		margin-top: 0;
+		opacity: 0;
+		width: inherit;
+		height: inherit;
+		transition: opacity 0.5s;
+		background: gray;
+	}
+
+	ul#coche1 li img{
+		width: 100%;
+		height: 480px;
+		object-fit: cover;
+	}
+
+	ul#coche1 li:first-child {
+		opacity: 1; /*Con este comando mostramos el primer <li>*/
+	}
+
+	ul#coche1 li:target {
+		opacity: 1; /*Con este comando mostramos el <li> del enlace que pulsemos*/
+	}
+
+	#coche1slider {
+		text-align: center;
+			margin-top: 3px;
+			/*border: 1px solid black;*/
+			width: 100%;
+		}
+
+	#coche1slider li{
+			display: inline-block;
+			/*border: 1px solid red;*/
+			width: 18%;
+			margin: 5px 0.5% 0px 0.5%;
+			height: 79px;
+		}
+
+	#coche1slider li a img{
+		width: 100%;
+		height: 79px;
+		/*border: 1px solid yellow;*/
+	}
+
+	#menuslider li a:hover{
+			border:1px solid black;
+		}
+
+#datoscoche1 {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+#datoscoche1 h3 {
+	color: #B40404;
+}
+
+#datoscoche1 span {
+
+}
+
+#datoscoche1 span img{
+	width: 23px;
+	height: 23px;
+	margin-left: 40px;
+}
+
+#botoncoche1 {
+	/*border: 1px solid red;*/
+	width: 15%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #FA5858;
+	color: white;
+	border-radius: 5px;
+}
+
+#botoncoche1:hover{
+	padding-top: 3px;
+	border:2px solid black;
+}
+
+/*-------------------------------------------Ford Galaxy2.0------------------------------------------------*/
+#cocheB {
+	margin-top: 30px;
+	/*border: 1px solid purple;*/
+}
+
+	ul#coche2{
+		position: relative;
+		width: 100%;
+		height: 480px;
+		/*border: 1px solid red;*/
+	}
+
+	ul#coche2 li{
+		position: absolute;
+		left: 0;
+		margin-top: 0;
+		opacity: 0;
+		width: inherit;
+		height: inherit;
+		transition: opacity 0.5s;
+		background: gray;
+	}
+
+	ul#coche2 li img{
+		width: 100%;
+		height: 480px;
+		object-fit: cover;
+	}
+
+	ul#coche2 li:first-child {
+		opacity: 1; /*Con este comando mostramos el primer <li>*/
+	}
+
+	ul#coche2 li:target {
+		opacity: 1; /*Con este comando mostramos el <li> del enlace que pulsemos*/
+	}
+
+#datoscoche2 {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+#datoscoche2 h3 {
+	color: #B40404;
+}
+
+#datoscoche2 span img{
+	width: 23px;
+	height: 23px;
+	margin-left: 40px;
+}
+
+#botoncoche2 {
+	/*border: 1px solid red;*/
+	width: 15%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #FA5858;
+	color: white;
+	border-radius: 5px;
+}
+
+#botoncoche2:hover{
+	padding-top: 3px;
+	border:2px solid black;
+}
+
+/*-------------------------------------------Fiat 500------------------------------------------------*/
+
+#cocheC {
+	margin-top: 30px;
+	/*border: 1px solid purple;*/
+}
+
+	ul#coche3{
+		position: relative;
+		width: 100%;
+		height: 480px;
+		/*border: 1px solid red;*/
+	}
+
+	ul#coche3 li{
+		position: absolute;
+		left: 0;
+		margin-top: 0;
+		opacity: 0;
+		width: inherit;
+		height: inherit;
+		transition: opacity 0.5s;
+		background: gray;
+	}
+
+	ul#coche3 li img{
+		width: 100%;
+		height: 480px;
+		object-fit: cover;
+	}
+
+	ul#coche3 li:first-child {
+		opacity: 1; /*Con este comando mostramos el primer <li>*/
+	}
+
+	ul#coche3 li:target {
+		opacity: 1; /*Con este comando mostramos el <li> del enlace que pulsemos*/
+	}
+
+#datoscoche3 {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+#datoscoche3 h3 {
+	color: #B40404;
+}
+
+#datoscoche3 span img{
+	width: 23px;
+	height: 23px;
+	margin-left: 40px;
+}
+
+#botoncoche3 {
+	/*border: 1px solid red;*/
+	width: 15%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #FA5858;
+	color: white;
+	border-radius: 5px;
+}
+
+#botoncoche3:hover{
+	padding-top: 3px;
+	border:2px solid black;
+}
+/*--------------------------------------------Pagina Formulario Renting --------------------------------------------*/
+
+#formularioreservatit{
+	text-align: center;
+	margin-top: 30px;
+	color: #B40404;
+}
+
+#formularioreserva {
+	width: 95%;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid green;*/
+	background-color: #FAFAFA;
+	border-radius: 10px;
+}
+
+	#formulariocoche1{
+		width: 90%;
+
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid red;
+		background-color: #FAFAFA;
+	}
+
+	#formulariocoche2{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid blue;
+		background-color: #FAFAFA;
+	}
+
+	#formulariocoche3{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid green;
+		background-color: #FAFAFA;
+	}
+
+		#rentingname {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#rennombre {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#rennombre:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentinglastname {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renapellidos {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		#renapellidos:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingpais {	
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renpais {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		#renpais:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingemail {	
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renemail {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		#renemail:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingconfemail {	
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renconfemail {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		#renconfemail:hover{
+			border: 1px solid #F78181;
+		}
+		
+		#rentingfechanacimiento {	
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renfechnacimiento {
+			font-family: RedRose-Regular, Sans-serif;				
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#renfechnacimiento:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingfecharec {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			border: 1px solid green;
+		}
+
+		#renfecharec {
+			font-family: RedRose-Regular, Sans-serif;				
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#renfecharec:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingfechadev {	
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			border: 1px solid green;
+		}
+
+		#renfechadev {
+			font-family: RedRose-Regular, Sans-serif;				
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#renfechadev:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingmodelo {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			float: left;
+			/*border: 1px solid green;*/
+		}
+
+		#renmodelo {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#renmodelo:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingtiptarjeta {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			/*border: 1px solid green;*/
+		}
+
+		#rentipotarjeta {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#rentipotarjeta:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingnomyap {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			/*border: 1px solid green;*/
+		}
+
+		#rennomyap {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#rennomyap:hover{
+			border: 1px solid #F78181;
+		}
+
+		#rentingnumtar {
+			margin: 5px 3% 0px 3%;
+			width: 27%;
+			font-size: 20px;
+			/*border: 1px solid green;*/
+		}
+
+		#rennumtar {
+			border: 1px solid gray;
+			border-radius: 5px;
+			width: 99%;
+			font-size: 16px;
+			text-align: center;
+			height: 20px;
+		}
+
+		#rennumtar:hover{
+			border: 1px solid #F78181;
+		}
+
+/*--------------------------------------------Pagina Formulario SalesForce --------------------------------------------*/
+
+#cuerposalesforce {
+	width: 63%;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid green;*/
+}
+
+	#contenidosalesforce{
+		width: 93%;
+		height: 450px;
+		margin-top: 65px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 4px solid #F2F2F2;
+	}
+
+		#formularioreservatitsalesforce{
+			text-align: center;
+			margin-top: 30px;
+			color: #B40404;
+		}
+
+		#formularioreservasalesforce {
+			width: 95%;
+			height: 328px;
+			margin-top: 2px;
+			margin-right: auto;
+			margin-left: auto;
+			/*border: 1px solid green;*/
+			background-color: #FAFAFA;
+			border-radius: 10px;
+		}
+
+			#formulariodatos {
+				width: 90%;
+				height: 115px;
+				margin-right: auto;
+				margin-left: auto;
+				/*border: 1px solid red;*/
+				background-color: #FAFAFA;
+			}
+
+		#rentingname {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					/*border: 1px solid green;*/
+				}
+
+				#first_name {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				#first_name:hover{
+					border: 1px solid #F78181;
+				}
+
+		#rentinglastname {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					/*border: 1px solid green;*/
+				}
+
+				#last_name {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				#last_name:hover{
+					border: 1px solid #F78181;
+				}
+
+		#rentingdni {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					float: left;
+					/*border: 1px solid green;*/
+				}
+
+				.rendni {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				.rendni:hover{
+					border: 1px solid #F78181;
+				}
+
+
+		#rentingemail {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					/*border: 1px solid green;*/
+				}
+
+				#email {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				#email:hover{
+					border: 1px solid #F78181;
+				}
+
+		#rentingciudad {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					float: left;
+					/*border: 1px solid green;*/
+				}
+
+				#city {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				#city:hover{
+					border: 1px solid #F78181;
+				}
+
+	#formulariovehiculo{
+		width: 90%;
+		height: 170px;
+		margin-right: auto;
+		margin-left: auto;
+		/*border: 1px solid blue;*/
+		background-color: #FAFAFA;
+	}
+
+		#rentingcoche {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					float: left;
+					/*border: 1px solid green;*/
+				}
+
+				.rencoche {
+					font-family: RedRose-Regular, Sans-serif;
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				.rencoche:hover{
+					border: 1px solid #F78181;
+				}
+
+		#rentingfecharecogida {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					float: left;
+					/*border: 1px solid green;*/
+				}
+
+				.renfecharecogida {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				.renfecharecogida:hover{
+					border: 1px solid #F78181;
+				}
+
+		#rentingfechadevolucion {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					float: left;
+					/*border: 1px solid green;*/
+				}
+
+				.renfechadevolucion {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				.renfechadevolucion:hover{
+					border: 1px solid #F78181;
+				}
+
+				#rentingprecio {
+					margin: 5px 3% 0px 3%;
+					width: 27%;
+					font-size: 20px;
+					margin-left: auto;
+					margin-right: auto;
+					/*border: 1px solid green;*/
+				}
+
+				.renprecio {
+					border: 1px solid gray;
+					border-radius: 5px;
+					width: 99%;
+					font-size: 16px;
+					text-align: center;
+					height: 20px;
+				}
+
+				.renprecio:hover{
+					border: 1px solid #F78181;
+				}
+
+				#rentingenviar {
+					width: 12%;
+					height: 30px;
+					margin-left: 44%;
+					margin-right: 44%;
+					margin-top: 20px;
+					background-color: #FA5858;
+					color: white;
+					border-radius: 5px;
+					border: none;
+				}
+
+				#rentingenviar:hover {
+					border:2px solid black;
+					border-radius: 5px;
+				}
+
+
+
+	
